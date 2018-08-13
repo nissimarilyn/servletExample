@@ -16,6 +16,7 @@ public class Welcome2Servlet extends HttpServlet {
         if(username.equals("cow")){
             RequestDispatcher requestDispatcher = req.getRequestDispatcher("welcome2");
             requestDispatcher.forward(req, resp);
+            System.out.println("cowly");
 
         }
        // if ("/welcome".equals(req.getRequestURI())) {
