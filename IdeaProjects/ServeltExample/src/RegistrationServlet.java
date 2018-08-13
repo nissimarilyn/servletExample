@@ -19,7 +19,7 @@ import java.io.PrintWriter;
             getServletContext().setAttribute("Password",password);
             RequestDispatcher requestDispatcher=req.getRequestDispatcher("/Login.jsp");
             requestDispatcher.forward(req,resp);
-
+           System.out.println("Hi i am here");
 //            if (username.equals("nissi") && (password.equals("admin"))) {
 //
 //                if ("/Login".equals(req.getRequestURI())) {
